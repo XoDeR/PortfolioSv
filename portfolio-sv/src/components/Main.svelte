@@ -20,8 +20,23 @@
       </a>
     </div>
     <div class="relative shadow-2xl grid place-items-center">
-      <img src={"images/profile-web-developer.jpg"} alt="Profile Image" class="object-cover z-[2] max-h-[70vh]" />
+      <img src={"images/profile-web-developer.jpg"} alt="Profile" class="object-cover z-[2] max-h-[70vh]" />
     </div>
   </section>
-  <section id="projects"></section>
+  <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
+    <div class="flex flex-col gap-2 text-center">
+      <h6 class="text-lg sm:text-xl md:text-2xl">
+        A few of my creative endeavors.
+      </h6>
+      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+        Curious to <span class="montserrat text-violet-400">see</span> my work?
+      </h3>
+    </div>
+    <a href="https://www.youtube.com/watch?v=fhfdhfjfgj"
+      target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex 
+      items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
+        <i class="fa-regular fa-circle-play"></i>
+        <p>Watch the video</p>
+      </a>
+  </section>
 </main>
