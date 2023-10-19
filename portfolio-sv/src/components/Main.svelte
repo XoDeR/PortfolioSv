@@ -1,5 +1,12 @@
 <script>
+  import Step from "./Step.svelte"
 
+  // TODO choose appropriate icons from FontAwesome Icons
+  let steps = [
+    {name: "BookSeller", icon: "fa-solid fa-cart-shopping"},
+    {name: "NetHub", icon: "fa-solid fa-list-check"},
+    {name: "HealthProvider", icon: "fa-solid fa-diagram-project"},
+  ]
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -37,6 +44,17 @@
       items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
         <i class="fa-regular fa-circle-play"></i>
         <p>Watch the video</p>
-      </a>
+    </a>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+      <Step step={steps[0]}>
+        
+      </Step>
+      <Step step={steps[1]}>
+        
+      </Step>
+      <Step step={steps[2]}>
+        
+      </Step>
+    </div>
   </section>
 </main>
