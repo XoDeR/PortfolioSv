@@ -47,14 +47,32 @@
     </a>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
-        
+        <p>BookSeller is a store to sell books created with
+        <strong class="text-violet-500">React, Node.js + Express.js, PostgreSQL</strong>
+        </p>
       </Step>
       <Step step={steps[1]}>
-        
+        <p>NetHub is a Full Stack
+        <strong class="text-violet-500">Next.js, Node.js + Express.js & MongoDb</strong>
+        Social Network application. 
+        </p>
       </Step>
       <Step step={steps[2]}>
-        
+        <p>HealthProvider is a</p>
+        <strong class="text-violet-500">React, Node.js + Express.js & MongoDb</strong>
+         application to book appointments with different doctors in different time slots.
       </Step>
     </div>
+  </section>
+  <section id="about" class="py-20 pt-10 lg:pt-16 lg-py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
+    <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0
+      before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700
+      after:absolute after:bottom-0
+      after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700">
+      <h6 class="text-lg sm:text-xl md:text-2xl">Want to know more?</h6>
+      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">A bit <span class="montserrat text-violet-500">about</span> me.</h3>
+    </div>
+    <p class="mx-auto montserrat font-semibold text-lg sm:texl-xl md:text-2xl">I am . . .</p>
+    <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]"></div>
   </section>
 </main>
