@@ -13,7 +13,7 @@
   <section id="introPage" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
     <div class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
       <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-        Hi! I'm <span class="montserrat text-violet-400">Victor</span> Codeberg <br/>Full Stack
+        Hi! I'm <span class="montserrat text-violet-400">Volodymyr</span><br/>Full Stack
         <span class="montserrat text-violet-400">Developer</span>
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
@@ -73,6 +73,24 @@
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">A bit <span class="montserrat text-violet-500">about</span> me.</h3>
     </div>
     <p class="mx-auto montserrat font-semibold text-lg sm:texl-xl md:text-2xl">I am . . .</p>
-    <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]"></div>
+    <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
+      <div class="flex gap-6 sm:gap-8">
+        <div class="flex flex-col gap-6 sm:gap-8">
+          <h3 class="text-2xl sm:text-3xl md:text-5xl">
+                a self taught developer
+          </h3>
+          <p> I taught myself web development using free online resources. Such as FreeCodeCapm and FullStackOpen.
+          </p>
+          <p> Started of with JavaScript, HTML & CSS and evolved my knowledge base to include
+          </p>
+          <p> JavaScript frameworks, TypeScript, backend programming, testing, deploying and much more.
+          </p>
+          <p> For a developer a programming ability is a must-have but could also mention
+          </p>
+          <p> dedication, critical thinking and good interpersonal skills as my strong points
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
 </main>
